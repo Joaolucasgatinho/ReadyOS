@@ -6,7 +6,7 @@ Getting started
 
 To get started with ReadyOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the ReadyOS trees, use a command like this:
 ```
 repo init -u https://github.com/ReadyOS/android.git -b 1.x --git-lfs
 ```
