@@ -1,29 +1,29 @@
-LineageOS
+ReadyOS
 ===========
 
 Getting started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with ReadyOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+repo init -u https://github.com/ReadyOS/android.git -b 1.x --git-lfs
 ```
 Then to sync up:
 ```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+Please see the [ReadyOS Wiki](https://wiki.readyos.org/) for building instructions, by device.
 
 
 Submitting patches
 ------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+Patches are always welcome! Please submit your patches via ReadyOS Ice Slushie!
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+Simply follow our guide on [how to submit patches](https://wiki.readyos.org/submitting-patch-howto.html).
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+To view the status of your and others' patches, visit [ReadyOS Ice Slushie Code Review](https://review.readyos.org/).
 
 
 Buildbot
@@ -31,6 +31,6 @@ Buildbot
 
 All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
+You can view the current build statuses at [ReadyOS Buildkite](https://buildkite.com/readyos).
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+Builds produced weekly by the buildbot can be downloaded from [ReadyOS downloads](https://download.readyos.org/).
